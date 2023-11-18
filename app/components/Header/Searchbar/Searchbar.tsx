@@ -19,9 +19,9 @@ const Searchbar = () => {
             <div
                 className={`${
                 isShow ? "block" : "hidden"
-                } fixed top-6 bg-white rounded-lg shadow-xl z-0`}
+                } fixed top-6 right-10 bg-slate-50 rounded-lg shadow-lg z-0`}
             >
-                <div className="flex justify-end pt-0 py-40 px-64 pr-4">
+                <div className="flex justify-end pt-4 py-40 px-96 pr-4">
                     <IoClose className="cursor-pointer" onClick={() => setIsShow(!isShow)}/>
                 </div>
             </div>
