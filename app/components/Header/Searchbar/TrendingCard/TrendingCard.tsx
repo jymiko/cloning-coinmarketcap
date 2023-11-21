@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { useState } from "react"
 
-const Trending = () => {
+const TrendingCard = () => {
 
     const [isShow, setIsShow] = useState(false)
 
@@ -30,4 +30,4 @@ const Trending = () => {
     )
 }
 
-export default Trending
+export default TrendingCard

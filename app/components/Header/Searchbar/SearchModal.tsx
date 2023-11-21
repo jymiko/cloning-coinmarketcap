@@ -2,7 +2,8 @@ import { BiSearch } from "react-icons/bi"
 import { BsFillSlashSquareFill } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
-import TrendingCard from "./InputSearch/TrendingCard";
+import TrendingCard from "./TrendingCard/TrendingCard";
+import RecentCard from "./RecentCard/RecentCard";
 import Image from "next/image";
 import Fire from "@/public/Fire.svg"
 
@@ -35,13 +36,23 @@ const SearchModal = () => {
                         <div className="text-[10px] text-gray-600">Trending</div>
                         <Image src={Fire} alt="trending" />
                     </div>
-                    <div className="pb-20">
+                    <div className="pb-4">
                         <TrendingCard />
                         <TrendingCard />
                         <TrendingCard />
                         <TrendingCard />
                         <TrendingCard />
                         <TrendingCard />
+                    </div>
+                </div>
+                <div className="px-4 py-2">
+                    <div className="flex justify-normal space-x-2">
+                        <div className="text-[10px] text-gray-600">Recent searches</div>
+                    </div>
+                    <div className="flex justify-start space-x-2">
+                        <RecentCard />
+                        <RecentCard />
+                        <RecentCard />
                     </div>
                 </div>
                 <div className="flex justify-between px-4 py-2 items-center bg-gray-100 space-x-14">
