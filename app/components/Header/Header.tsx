@@ -1,7 +1,7 @@
 import Image from "next/image"
 import CoinMarketCap from "@/public/CoinMarketCap.svg"
 import Link from "next/link"
-import Searchbar from "./Searchbar/Searchbar"
+import SearchModal from "./Searchbar/SearchModal"
 
 const Header = () => {
     return(
@@ -26,7 +26,7 @@ const Header = () => {
                         </ul>
                     </div>
                 </div>
-            <Searchbar />
+            <SearchModal />
             </div>
         </div>
     )
