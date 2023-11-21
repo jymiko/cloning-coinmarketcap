@@ -45,11 +45,11 @@ const SearchModal = () => {
                         <TrendingCard />
                     </div>
                 </div>
-                <div className="px-4 py-2">
-                    <div className="flex justify-normal space-x-2">
+                <div className="px-2 py-2">
+                    <div className="flex justify-normal px-2 py-2">
                         <div className="text-[10px] text-gray-600">Recent searches</div>
                     </div>
-                    <div className="flex justify-start space-x-2">
+                    <div className="flex justify-start">
                         <RecentCard />
                         <RecentCard />
                         <RecentCard />
